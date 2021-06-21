@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#heading {
+  padding-left: 45%;
+  font-size: 50px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contelement {
+  margin: 10px 10px 10px 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 95%;
+  width: 33%;
+  text-align: center;
+}
+
+#projectcont {
+  background-color: rgba(253, 227, 167, 1);
+}
+
+#todocont {
+  background-color: rgba(250, 190, 88, 1);
+}
+
+#showcont {
+  background-color: rgba(245, 171, 53, 1);
+}
+
+.button {
+  display: block;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px 0 10px 10px;
+  text-align: center;
+  font-size: 23px;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.popup {
+  width: 300px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#projecttitle {
+  margin: 20px;
+}
+
+#addprojectbutton {
+  display: block;
+  margin: auto;
+}
+
+#editprojectbutton {
+  display: block;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.popup-header {
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.todoinfoele {
+  font-size: 30px;
+  color: white;
+  margin: 30px;
+}
+
+.info-header {
+  font-size: 50px;
+  color: white;
+  margin: 50px;
+}
